@@ -85,7 +85,7 @@ const App_State = (props) => {
   const deleterecipe=async(id)=>{
     console.log(id+" 2")
     const api = await axios.put(`${url}/delete`,{id});
-   //setreload(!reload)
+   setreload(!reload)
   return api;
   }
 
