@@ -1,0 +1,16 @@
+body{
+  min-height: 100vh;
+  color: white;
+  background: linear-gradient(rgb(206, 32, 76), rgb(39, 39, 139), rgb(9, 62, 62));
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}

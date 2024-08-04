@@ -1,0 +1,72 @@
+.cards{
+  background-color: rgb(187, 245, 245);
+}
+.mycard{
+ width:30%;
+}
+.xx{
+  min-height: 100vh;
+}
+.instr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+}
+.name{
+  color:rgb(24, 198, 137);
+  font-size: 30px;
+}
+.namehome{
+  color: rgb(24, 198, 137);
+    font-size: 25px;
+}
+.whitee{
+  color:rgb(119, 234, 144);
+  font-size: 40px;
+}
+.cont{
+  max-width: 700px;
+  margin-left:25%;
+}
+.bt{
+  margin-top:10px;
+  min-width: 80px;
+  margin-right:5px;
+}
+.my{
+  margin-top:10%;
+  font-size: 25px;
+  margin-right: 8px;
+}
+.myadd{
+  margin-top:5%;
+  padding: 20px;
+  font-size: 20px;
+}
+.details{
+  font-size: 20px;
+}
+.instru{
+  font-size: 30px;
+  color: rgb(172, 218, 229);
+}
+.editdetails{
+  min-width: 500px;
+  min-height: 100px;
+  background-color: bisque;
+  border-radius: 5px;
+}
+.editins{
+  min-width: 500px;
+  min-height: 200px;
+  background-color: bisque;
+  border-radius: 5px;
+}
+.footer {
+  border-top: 2px solid rgb(241, 239, 239);
+  text-align: center;
+  height: 180px;
+  padding: 15px 0px;
+  font-size: 15px;
+}
