@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { AppContext } from "./App_Context";
 import axios from "axios";
 const App_State = (props) => {
-  const url = "http://localhost:3000/api";
+  const url = "https://food-recipe-sharing-mern-webapp.onrender.com/api";
   const [token, setToken] = useState("");
   const [recipe, setrecipe] = useState([]);
   const [savedRecipe, setsavedRecipe] = useState([]);
