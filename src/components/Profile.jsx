@@ -6,7 +6,7 @@ const Profile = () => {
   const navigate= useNavigate();
   const handledelete = async(id)=>{
    const del = await deleterecipe(id);
-   location.reload(false)
+   
   }
   return (
     <>
